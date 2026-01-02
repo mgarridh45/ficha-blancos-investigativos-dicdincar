@@ -6,7 +6,8 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', 'VITE_')
 
   return {
-    base: '/ficha-blancos-investigativos-dicdincar/',
+
+    base: '/',
 
     plugins: [react()],
 
